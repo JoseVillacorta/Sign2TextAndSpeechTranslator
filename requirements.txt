@@ -1,0 +1,23 @@
+# Machine Learning and Computer Vision
+tensorflow
+opencv-python
+mediapipe
+numpy
+scikit-learn
+
+# Data Processing
+pandas
+matplotlib
+seaborn
+
+# Audio Processing
+pyttsx3
+soundfile
+
+# Utilities
+python-dotenv
+pyyaml
+tqdm
+
+
+
