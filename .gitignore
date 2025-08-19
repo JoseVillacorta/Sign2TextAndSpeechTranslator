@@ -1,0 +1,47 @@
+#Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+#IDE
+.vscode/
+.idea/
+
+# Data files
+data/raw_videos/*
+data/frame_actions/*
+data/keypoints/*
+data/normalized_samples/*
+!data/raw_videos/.gitkeep
+!data/frame_actions/.gitkeep
+!data/keypoints/.gitkeep
+!data/normalized_samples/.gitkeep
+
+# Model files
+models/trained_models/*
+models/checkpoints/*
+!models/trained_models/.gitkeep
+!models/checkpoints/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeeps
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
