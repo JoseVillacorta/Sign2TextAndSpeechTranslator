@@ -11,6 +11,9 @@ BATCH_SIZE = 8
 EPOCHS = 500
 TARGET_FPS = 12
 
+# Camera Parameters
+CAMERA_INDEX = 0
+
 # UI Parameters
 FONT = cv2.FONT_HERSHEY_PLAIN
 FONT_SIZE = 1.5
