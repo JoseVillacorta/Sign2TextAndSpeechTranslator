@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  sign-language-translator:
+    build: .
+    container_name: sign-translator
+    ports:
+      - "8000:8000" # For the API
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+      - ./outputs:/app/outputs
+    environment:
+      - PYTHONPATH=/app
+    devices:
+      - /dev/video0:/dev/video0 # For camera access
+    stdin_open: true
+    tty: true
